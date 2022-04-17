@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ew028",
+    "name": "Almasty",
+    "level": "82",
+    "coordinateX": "31",
+    "coordinateY": "31",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew029",
+    "name": "Automated Avenger",
+    "level": "83",
+    "coordinateX": "11",
+    "coordinateY": "12",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew030",
+    "name": "Automated Bit",
+    "level": "83",
+    "coordinateX": "23",
+    "coordinateY": "17",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew031",
+    "name": "Automated Cavalry",
+    "level": "83",
+    "coordinateX": "13",
+    "coordinateY": "17",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew032",
+    "name": "Automated Colossus",
+    "level": "83",
+    "coordinateX": "23",
+    "coordinateY": "15",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew033",
+    "name": "Automated Death Machine",
+    "level": "83",
+    "coordinateX": "22",
+    "coordinateY": "18",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew034",
+    "name": "Automated Roader",
+    "level": "83",
+    "coordinateX": "10",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew035",
+    "name": "Automated Satellite",
+    "level": "83",
+    "coordinateX": "23",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew036",
+    "name": "Automated Slasher",
+    "level": "83",
+    "coordinateX": "30",
+    "coordinateY": "14",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew037",
+    "name": "Canis Lupinus",
+    "level": "82",
+    "coordinateX": "15",
+    "coordinateY": "23",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew038",
+    "name": "Ceruleum Zoblyn",
+    "level": "82",
+    "coordinateX": "30",
+    "coordinateY": "35",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew039",
+    "name": "Eblan Bear",
+    "level": "82",
+    "coordinateX": "13",
+    "coordinateY": "27",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew040",
+    "name": "Eblan Icetrap",
+    "level": "82",
+    "coordinateX": "29",
+    "coordinateY": "20",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew041",
+    "name": "Ilsabardian Tursus",
+    "level": "82",
+    "coordinateX": "26",
+    "coordinateY": "32",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew042",
+    "name": "Jotunn",
+    "level": "82",
+    "coordinateX": "23",
+    "coordinateY": "24",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew043",
+    "name": "Overgrown Rose",
+    "level": "82",
+    "coordinateX": "27",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew044",
+    "name": "Ovibos",
+    "level": "82",
+    "coordinateX": "20",
+    "coordinateY": "29",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

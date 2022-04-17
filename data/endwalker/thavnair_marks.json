@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ew011",
+    "name": "Akyaali Crab",
+    "level": "80",
+    "coordinateX": "13",
+    "coordinateY": "29",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew012",
+    "name": "Asvattha",
+    "level": "85",
+    "coordinateX": "28",
+    "coordinateY": "12",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew013",
+    "name": "Bhujamga",
+    "level": "85",
+    "coordinateX": "31",
+    "coordinateY": "18",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew014",
+    "name": "Chamrosh",
+    "level": "81",
+    "coordinateX": "9",
+    "coordinateY": "13",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew015",
+    "name": "Gaja",
+    "level": "80",
+    "coordinateX": "21",
+    "coordinateY": "29",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew016",
+    "name": "Guhasaya",
+    "level": "85",
+    "coordinateX": "25",
+    "coordinateY": "27",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew017",
+    "name": "Hamsa",
+    "level": "80",
+    "coordinateX": "18",
+    "coordinateY": "25",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew018",
+    "name": "Kacchapa",
+    "level": "80",
+    "coordinateX": "21",
+    "coordinateY": "34",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew019",
+    "name": "Manjusaka",
+    "level": "81",
+    "coordinateX": "13",
+    "coordinateY": "11",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew020",
+    "name": "Odqan",
+    "level": "85",
+    "coordinateX": "23",
+    "coordinateY": "18",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew021",
+    "name": "Pisaca",
+    "level": "80",
+    "coordinateX": "19",
+    "coordinateY": "23",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew022",
+    "name": "Sotormurg",
+    "level": "81",
+    "coordinateX": "17",
+    "coordinateY": "16",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew023",
+    "name": "Starmite",
+    "level": "81",
+    "coordinateX": "15",
+    "coordinateY": "10",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew024",
+    "name": "Thavnairian Jhammel",
+    "level": "81",
+    "coordinateX": "20",
+    "coordinateY": "11",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew025",
+    "name": "Ufiti",
+    "level": "85",
+    "coordinateX": "25",
+    "coordinateY": "20",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew026",
+    "name": "Vajralangula",
+    "level": "81",
+    "coordinateX": "11",
+    "coordinateY": "19",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew027",
+    "name": "Valras",
+    "level": "81",
+    "coordinateX": "7",
+    "coordinateY": "14",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

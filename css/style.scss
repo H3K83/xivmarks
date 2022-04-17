@@ -1,0 +1,266 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $light;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $secondary;
+  border: $spacer * 0.15 solid $light;
+  border-radius: $border-radius-pill;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  color: $secondary;
+}
+
+a:hover,
+a:active {
+  color: $white;
+}
+
+.collapsing {
+  display: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#main-nav {
+  background-color: rgba($black, 0.25);
+  border-bottom: 1px solid rgba($white, 0.1);
+}
+
+#main-nav .nav-link {
+  color: $secondary;
+  &:hover {
+    color: $white;
+  }
+}
+
+#mark-lists a {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#mark-lists .mark-lists-wrapper {
+  border: 1px solid rgba($white, 0.1);
+}
+
+#mark-lists .accordion-toggle-wrapper a {
+  background-color: rgba($black, 0.1);
+  border-bottom: 1px solid rgba($white, 0.1);
+  &[aria-expanded="true"] {
+    background-color: rgba($black, 0.25);
+    border-bottom: 0;
+    color: $white;
+  }
+  & + a:hover {
+    color: $danger;
+  }
+  &[aria-expanded="true"] + a {
+    background-color: rgba($black, 0.25);
+    border-bottom: 0;
+  }
+  &[aria-expanded="true"] + a:hover {
+    color: $danger;
+  }
+}
+
+#mark-lists .accordion-item:last-of-type .accordion-toggle-wrapper a {
+  border-bottom: 0;
+}
+
+#mark-lists .accordion-collapse {
+  border-top: 1px solid rgba($white, 0.1);
+  border-bottom: 1px solid rgba($white, 0.1);
+}
+
+#mark-lists .accordion-item:last-of-type .accordion-collapse {
+  border-bottom: 0;
+}
+
+#mark-lists #clear-marks {
+  background-color: rgba($black, 0.1);
+  &:hover {
+    background-color: rgba($black, 0.25);
+    color: $danger;
+  }
+}
+
+#mark-lists .list-group-item {
+  background-color: $dark;
+  border-color: rgba($white, 0.1);
+  color: $light;
+}
+
+#mark-lists .list-group-item a[aria-expanded="true"] {
+  color: $light;
+}
+
+#map-info-tabs {
+  border: 1px solid rgba($white, 0.1);
+}
+
+#map-info-tabs .nav-link {
+  background-color: rgba($black, 0.1);
+  border-bottom: 1px solid rgba($white, 0.1);
+  color: $secondary;
+  &:hover {
+    background-color: rgba($black, 0.25);
+    color: $white;
+  }
+  &.active {
+    background-color: rgba($black, 0.25);
+    color: $white;
+  }
+}
+
+#map-info-tabs .nav-link:last-of-type {
+  border-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  #map-info-tabs .nav-link {
+    border-right: 1px solid rgba($white, 0.1);
+    border-bottom: 0;
+  }
+
+  #map-info-tabs .nav-link:last-of-type {
+    border-right: 0;
+  }
+}
+
+#map-info .card {
+  border-color: rgba($white, 0.1);
+}
+
+#map-info .card-body .list-group-item {
+  background-color: transparent;
+  border-color: rgba($white, 0.1);
+  color: $light;
+  font-size: $font-size-sm;
+}
+
+#map-info .card-body .list-group-item:last-child {
+  border-bottom: 1px solid rgba($white, 0.1);
+}
+
+#map-info .mark-flags [id$="-flag-pip"] {
+  background-color: rgba($danger, 0.2);
+  border-radius: $border-radius-pill;
+  height: 24px;
+  position: absolute;
+  width: 24px;
+  z-index: 2;
+  &:before {
+    border: 2px solid $danger;
+    border-radius: $border-radius-pill;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  &:after {
+    background-color: $danger;
+    border-radius: $border-radius-pill;
+    content: "";
+    display: inline-block;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+  }
+}
+
+#map-info .mark-flags .aetheryte-pip {
+  height: 24px;
+  position: absolute;
+  width: 24px;
+  z-index: 1;
+}
+
+#map-info .mark-flags [id$="-flag-pip"] span,
+#map-info .mark-flags .aetheryte-pip span {
+  background-color: $tooltip-bg;
+  border-radius: $tooltip-border-radius;
+  color: $tooltip-color;
+  display: none;
+  font-size: $font-size-sm;
+  opacity: $tooltip-opacity;
+  margin: $tooltip-margin;
+  padding: $tooltip-padding-y $tooltip-padding-x;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 400px;
+  z-index: 3;
+}
+
+#map-info .mark-flags [id$="-flag-pip"]:focus span,
+#map-info .mark-flags [id$="-flag-pip"]:hover span,
+#map-info .mark-flags .aetheryte-pip:focus span,
+#map-info .mark-flags .aetheryte-pip:hover span {
+  display: inline-block;
+}
+
+#map-info .card-img-wrapper {
+  border-right: 1px solid rgba($white, 0.1);
+  min-height: 512px;
+}
+
+#map-info .card-img-wrapper .card-img {
+  min-height: 512px;
+  height: 512px;
+  max-height: 512px;
+  position: relative;
+  min-width: 512px;
+  width: 512px;
+  max-width: 512px;
+}
+
+@media (min-width: 768px) {
+  #map-info .card-img-wrapper .card-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+footer {
+  background-color: rgba($black, 0.25);
+  border-top: 1px solid rgba($white, 0.1);
+  color: $secondary;
+}

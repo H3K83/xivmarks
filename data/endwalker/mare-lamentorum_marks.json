@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ew045",
+    "name": "Armalcolite",
+    "level": "83",
+    "coordinateX": "16",
+    "coordinateY": "32",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew046",
+    "name": "Caretaker",
+    "level": "84",
+    "coordinateX": "9",
+    "coordinateY": "10",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew047",
+    "name": "Daphnia",
+    "level": "84",
+    "coordinateX": "24",
+    "coordinateY": "22",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew048",
+    "name": "Downfall Alarum",
+    "level": "83",
+    "coordinateX": "28",
+    "coordinateY": "23",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew049",
+    "name": "Downfall Droid",
+    "level": "83",
+    "coordinateX": "33",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew050",
+    "name": "Downfall Hunter",
+    "level": "83",
+    "coordinateX": "33",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew051",
+    "name": "Dynamite",
+    "level": "84",
+    "coordinateX": "10",
+    "coordinateY": "22",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew052",
+    "name": "Mousse",
+    "level": "84",
+    "coordinateX": "15",
+    "coordinateY": "24",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew053",
+    "name": "Osculator",
+    "level": "84",
+    "coordinateX": "24",
+    "coordinateY": "22",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew054",
+    "name": "Panopt",
+    "level": "83",
+    "coordinateX": "8",
+    "coordinateY": "34",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew055",
+    "name": "Regolith",
+    "level": "83",
+    "coordinateX": "28",
+    "coordinateY": "36",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew056",
+    "name": "Scraper",
+    "level": "84",
+    "coordinateX": "31",
+    "coordinateY": "11",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew057",
+    "name": "Supporter",
+    "level": "84",
+    "coordinateX": "9",
+    "coordinateY": "10",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew058",
+    "name": "Sweeper",
+    "level": "83",
+    "coordinateX": "9",
+    "coordinateY": "35",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew059",
+    "name": "Thinker",
+    "level": "84",
+    "coordinateX": "19",
+    "coordinateY": "22",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew060",
+    "name": "Trimmer",
+    "level": "83",
+    "coordinateX": "22",
+    "coordinateY": "34",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew061",
+    "name": "Wanderer",
+    "level": "83",
+    "coordinateX": "27",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew062",
+    "name": "Weeper",
+    "level": "83",
+    "coordinateX": "31",
+    "coordinateY": "32",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

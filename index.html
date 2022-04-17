@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#000000" />
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-config" content="images/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#000000" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+    <title>XIV Marks 0.1.0-alpha</title>
+  </head>
+  <body class="bg-dark vh-100">
+    <div class="container-fluid d-flex flex-column vh-100 p-0">
+      <header>
+        <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand d-inline-block fs-2 fw-light py-0 position-relative" href="index.html" title="XIV Marks"><img src="images/logo.svg" alt="" width="38" class="d-inline-block ms-3 position-absolute top-50 translate-middle" /><span style="margin-left: calc(38px + 0.25rem)">XIV Marks <span class="fs-6">0.1.0-alpha</span></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" title="Hunt Marks">Hunt Marks</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container px-0 py-3" style="flex: 1">
+        <div class="row">
+          <div id="mark-lists" class="col-12 col-lg-3 mt-2 mt-lg-0 order-1 order-lg-0">
+            <div class="mark-lists-wrapper rounded-3 overflow-hidden">
+              <div id="mark-zones" class="accordion border-0">
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone1-marks" aria-expanded="false" aria-controls="zone1-marks">Labyrinthos</a>
+                    <a id="reset-zone1-marks" class="flex-shrink-1 px-3 py-2" title="Clear Labyrinthos Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone1-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone2-marks" aria-expanded="false" aria-controls="zone2-marks">Thavnair</a>
+                    <a id="reset-zone2-marks" class="flex-shrink-1 px-3 py-2" title="Clear Thavnair Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone2-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone3-marks" aria-expanded="false" aria-controls="zone3-marks">Garlemald</a>
+                    <a id="reset-zone3-marks" class="flex-shrink-1 px-3 py-2" title="Clear Garlemald Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone3-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone4-marks" aria-expanded="false" aria-controls="zone4-marks">Mare Lamentorum</a>
+                    <a id="reset-zone4-marks" class="flex-shrink-1 px-3 py-2" title="Clear Mare Lamentorum Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone4-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone5-marks" aria-expanded="false" aria-controls="zone5-marks">Elpis</a>
+                    <a id="reset-zone5-marks" class="flex-shrink-1 px-3 py-2" title="Clear Elpis Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone5-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+                <div class="accordion-item bg-transparent border-0">
+                  <div class="accordion-toggle-wrapper btn-group d-flex">
+                    <a class="accordion-toggle rounded-0 flex-grow-1 px-3 py-2 text-start" data-bs-toggle="collapse" data-bs-target="#zone6-marks" aria-expanded="false" aria-controls="zone6-marks">Ultima Thule</a>
+                    <a id="reset-zone6-marks" class="flex-shrink-1 px-3 py-2" title="Clear Ultima Thule Marks"><i class="bi bi-trash3-fill"></i></a>
+                  </div>
+                  <div id="zone6-marks" class="accordion-collapse collapse" data-bs-parent="#mark-zones">
+                    <ul class="list-group list-group-flush overflow-auto" style="max-height: 410px"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="list-group rounded-3 mt-2">
+              <li class="list-group-item overflow-hidden p-0"><a id="clear-marks" class="d-inline-block px-3 py-2 text-start w-100" title="Clear Marks">Clear Marks</a></li>
+            </div>
+          </div>
+          <div id="map-info" class="col-12 col-lg-9 order-0 order-lg-1">
+            <div class="nav btn-group rounded-3 d-flex d-lg-inline-flex flex-column flex-lg-row overflow-hidden" id="map-info-tabs" role="tablist">
+              <a class="btn btn-link nav-link active" id="map-info-zone1-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone1" role="tab" aria-controls="map-info-zone1" aria-selected="true">Labyrinthos</a>
+              <a class="btn btn-link nav-link" id="map-info-zone2-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone2" role="tab" aria-controls="map-info-zone2" aria-selected="false">Thavnair</a>
+              <a class="btn btn-link nav-link" id="map-info-zone3-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone3" role="tab" aria-controls="map-info-zone3" aria-selected="false">Garlemald</a>
+              <a class="btn btn-link nav-link" id="map-info-zone4-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone4" role="tab" aria-controls="map-info-zone4" aria-selected="false">Mare Lamentorum</a>
+              <a class="btn btn-link nav-link" id="map-info-zone5-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone5" role="tab" aria-controls="map-info-zone5" aria-selected="false">Elpis</a>
+              <a class="btn btn-link nav-link" id="map-info-zone6-tab" data-bs-toggle="tab" data-bs-target="#map-info-zone6" role="tab" aria-controls="map-info-zone6" aria-selected="false">Ultima Thule</a>
+            </div>
+            <div class="tab-content mt-2" id="map-info-tab-content">
+              <div class="tab-pane show active" id="map-info-zone1" role="tabpanel" aria-labelledby="map-info-zone1-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 27 - 24px); left: calc(100% / 40.9 * 6.9 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Aporia</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 11.9 - 24px); left: calc(100% / 40.9 * 30.3 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>The Archeion</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 20 - 24px); left: calc(100% / 40.9 * 21.8 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Sharlayan Hamlet</span></div>
+                          </div>
+                          <img src="images/maps/labyrinthos.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="map-info-zone2" role="tabpanel" aria-labelledby="map-info-zone2-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 16.5 - 24px); left: calc(100% / 40.9 * 29.5 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Palaka's Stand</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 22.2 - 24px); left: calc(100% / 40.9 * 10.9 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>The Great Work</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 34 - 24px); left: calc(100% / 40.9 * 25.3 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Yedihmad</span></div>
+                          </div>
+                          <img src="images/maps/thavnair.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="map-info-zone3" role="tabpanel" aria-labelledby="map-info-zone3-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 31.1 - 24px); left: calc(100% / 40.9 * 13.3 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Camp Broken Glass</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 18 - 24px); left: calc(100% / 40.9 * 31.7 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Tertium</span></div>
+                          </div>
+                          <img src="images/maps/garlemald.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="map-info-zone4" role="tabpanel" aria-labelledby="map-info-zone4-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 34.3 - 24px); left: calc(100% / 40.9 * 10.3 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Sinus Lacrimarum</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 11.1 - 24px); left: calc(100% / 40.9 * 21.7 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Bestways Burrow</span></div>
+                          </div>
+                          <img src="images/maps/mare-lamentorum.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="map-info-zone5" role="tabpanel" aria-labelledby="map-info-zone5-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 23.8 - 24px); left: calc(100% / 40.9 * 24.8 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Anagnorisis</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 31.8 - 24px); left: calc(100% / 40.9 * 9 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>The Twelve Wonders</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 17 - 24px); left: calc(100% / 40.9 * 10.8 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Poieten Oikos</span></div>
+                          </div>
+                          <img src="images/maps/elpis.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="map-info-zone6" role="tabpanel" aria-labelledby="map-info-zone6-tab">
+                <div class="card text-white bg-dark">
+                  <div class="row g-0">
+                    <div class="col-12 col-xl-8">
+                      <div class="card-img-wrapper overflow-auto position-relative">
+                        <div class="card-img">
+                          <div class="mark-flags h-100 position-absolute top-0 start-0 w-100">
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 26.7 - 24px); left: calc(100% / 40.9 * 10.8 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Reah Tahra</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 8.1 - 24px); left: calc(100% / 40.9 * 23 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Abode of the Ea</span></div>
+                            <div class="aetheryte-pip" style="height: 24px; top: calc(100% / 40.9 * 27.9 - 24px); left: calc(100% / 40.9 * 31.3 - 24px); width: 24px"><img src="images/sprites/aetheryte.png" /><span>Base Omicron</span></div>
+                          </div>
+                          <img src="images/maps/ultima-thule.jpg" class="img-fluid" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-xl-4 d-none d-xl-block">
+                      <div class="card-body p-0">
+                        <ul class="list-group list-group-flush"></ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+       <div class="container">
+        <p class="mt-4 mb-4 text-center">All data on this site has been manually aggregated by its contributors. FINAL FANTASY is a registered trademark of SQUARE ENIX CO., LTD.<br />This website was designed by <a href="https://github.com/H3K83" target="_blank" title="Hekate">Hekate</a> and is licensed under a Creative Commons <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-No Derivatives 4.0 International">BY-NC-ND 4.0 International License</a>.</p>
+       </div>
+      </footer>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      //Populate mark lists and map info from JSON
+      $.ajax({
+        url: "data/endwalker/labyrinthos_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone1-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone1 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone1 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+      $.ajax({
+        url: "data/endwalker/thavnair_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone2-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone2 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone2 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+      $.ajax({
+        url: "data/endwalker/garlemald_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone3-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone3 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone3 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+      $.ajax({
+        url: "data/endwalker/mare-lamentorum_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone4-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone4 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone4 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+      $.ajax({
+        url: "data/endwalker/elpis_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone5-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone5 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone5 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+      $.ajax({
+        url: "data/endwalker/ultima-thule_marks.json",
+        dataType: "json",
+        success: function (data) {
+          for (var i = 0; i < data.length; i++) {
+            var markList = $('<li class="list-group-item p-0"><a class="d-inline-block px-3 py-2 text-start w-100" data-bs-toggle="collapse" data-bs-target=".' + data[i].id + '-collapse" aria-expanded="false" aria-controls="' + data[i].id + " " + data[i].id + '-flag-pip">' + data[i].name + "</a></li>");
+            $("#zone6-marks .list-group").append(markList);
+            var mapInfo = $('<li id="' + data[i].id + '" class="list-group-item ' + data[i].id + '-collapse collapse">Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</li>");
+            $("#map-info-zone6 .list-group").append(mapInfo);
+            var mapInfoFlags = $('<div id="' + data[i].id + '-flag-pip" class="' + data[i].id + '-collapse collapse" style="height: 24px; top: calc(100% / 40.9 * ' + data[i].coordinateY + " - 24px); left: calc(100% / 40.9 * " + data[i].coordinateX + ' - 24px); width: 24px"><span>Lv' + data[i].level + " " + data[i].name + " (" + data[i].coordinateX + ".0, " + data[i].coordinateX + ".0)</span></div>");
+            $("#map-info-zone6 .mark-flags").append(mapInfoFlags);
+          }
+        },
+      });
+
+      //Clear selected marks individually or globally
+      $("#clear-marks").on("click", function () {
+        $("#mark-lists .collapse").collapse("hide");
+        $("#map-info .collapse").collapse("hide");
+      });
+      $("#reset-zone1-marks").on("click", function () {
+        $("#map-info-zone1 .collapse").collapse("hide");
+      });
+      $("#reset-zone2-marks").on("click", function () {
+        $("#map-info-zone2 .collapse").collapse("hide");
+      });
+      $("#reset-zone3-marks").on("click", function () {
+        $("#map-info-zone3 .collapse").collapse("hide");
+      });
+      $("#reset-zone4-marks").on("click", function () {
+        $("#map-info-zone4 .collapse").collapse("hide");
+      });
+      $("#reset-zone5-marks").on("click", function () {
+        $("#map-info-zone5 .collapse").collapse("hide");
+      });
+      $("#reset-zone6-marks").on("click", function () {
+        $("#map-info-zone6 .collapse").collapse("hide");
+      });
+    </script>
+  </body>
+</html>

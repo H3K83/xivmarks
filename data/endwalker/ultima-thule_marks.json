@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ew081",
+    "name": "Beta",
+    "level": "89",
+    "coordinateX": "32",
+    "coordinateY": "24",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew082",
+    "name": "Broken Omicron",
+    "level": "89",
+    "coordinateX": "29",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew083",
+    "name": "Delta",
+    "level": "89",
+    "coordinateX": "33",
+    "coordinateY": "27",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew084",
+    "name": "Drifting Ea",
+    "level": "89",
+    "coordinateX": "28",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew085",
+    "name": "Lambda",
+    "level": "89",
+    "coordinateX": "36",
+    "coordinateY": "26",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew086",
+    "name": "Level Tricker",
+    "level": "89",
+    "coordinateX": "31",
+    "coordinateY": "25",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew087",
+    "name": "Other One",
+    "level": "89",
+    "coordinateX": "15",
+    "coordinateY": "12",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew088",
+    "name": "Stellar Amphiptere",
+    "level": "89",
+    "coordinateX": "10",
+    "coordinateY": "31",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew089",
+    "name": "Stellar Brobinyak",
+    "level": "89",
+    "coordinateX": "15",
+    "coordinateY": "27",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

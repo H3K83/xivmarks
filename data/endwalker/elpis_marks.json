@@ -1,0 +1,164 @@
+[
+  {
+    "id": "ew063",
+    "name": "Akantha",
+    "level": "87",
+    "coordinateX": "28",
+    "coordinateY": "7",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew064",
+    "name": "Bird of Elpis",
+    "level": "86",
+    "coordinateX": "28",
+    "coordinateY": "24",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew065",
+    "name": "Elpis Minotaur",
+    "level": "87",
+    "coordinateX": "14",
+    "coordinateY": "16",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew066",
+    "name": "Gryps",
+    "level": "86",
+    "coordinateX": "6",
+    "coordinateY": "31",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew067",
+    "name": "Harpuia",
+    "level": "87",
+    "coordinateX": "14",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew068",
+    "name": "Hippe",
+    "level": "87",
+    "coordinateX": "33",
+    "coordinateY": "15",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew069",
+    "name": "Lotis",
+    "level": "87",
+    "coordinateX": "22",
+    "coordinateY": "6",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew070",
+    "name": "Lykopersikon",
+    "level": "87",
+    "coordinateX": "24",
+    "coordinateY": "14",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew071",
+    "name": "Melanion",
+    "level": "87",
+    "coordinateX": "9",
+    "coordinateY": "23",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew072",
+    "name": "Monoceros",
+    "level": "86",
+    "coordinateX": "22",
+    "coordinateY": "29",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew073",
+    "name": "Morbol Marquis",
+    "level": "87",
+    "coordinateX": "26",
+    "coordinateY": "10",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew074",
+    "name": "Okyupete",
+    "level": "86",
+    "coordinateX": "23",
+    "coordinateY": "20",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew075",
+    "name": "Ophion",
+    "level": "86",
+    "coordinateX": "25",
+    "coordinateY": "34",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew076",
+    "name": "Ophiotauros",
+    "level": "87",
+    "coordinateX": "13",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew077",
+    "name": "Pegasos",
+    "level": "87",
+    "coordinateX": "9",
+    "coordinateY": "15",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew078",
+    "name": "Phanopsyche",
+    "level": "86",
+    "coordinateX": "10",
+    "coordinateY": "34",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew079",
+    "name": "Remora",
+    "level": "87",
+    "coordinateX": "33",
+    "coordinateY": "18",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew080",
+    "name": "Yggdreant",
+    "level": "86",
+    "coordinateX": "16",
+    "coordinateY": "28",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ew001",
+    "name": "Caribou",
+    "level": "80",
+    "coordinateX": "13",
+    "coordinateY": "7",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew002",
+    "name": "Genomos",
+    "level": "81",
+    "coordinateX": "31",
+    "coordinateY": "25",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew003",
+    "name": "Labyrinth Screamer",
+    "level": "80",
+    "coordinateX": "34",
+    "coordinateY": "17",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew004",
+    "name": "Limascabra",
+    "level": "80",
+    "coordinateX": "32",
+    "coordinateY": "9",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew005",
+    "name": "Luncheon Toad",
+    "level": "81",
+    "coordinateX": "22",
+    "coordinateY": "13",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew006",
+    "name": "Mythrilcap",
+    "level": "80",
+    "coordinateX": "38",
+    "coordinateY": "19",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew007",
+    "name": "Northern Snapweed",
+    "level": "81",
+    "coordinateX": "22",
+    "coordinateY": "10",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew008",
+    "name": "Pephredo",
+    "level": "81",
+    "coordinateX": "26",
+    "coordinateY": "14",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew009",
+    "name": "Troll",
+    "level": "80",
+    "coordinateX": "26",
+    "coordinateY": "7",
+    "fate": "false",
+    "huntLog": "false"
+  },
+  {
+    "id": "ew010",
+    "name": "Yakow",
+    "level": "81",
+    "coordinateX": "18",
+    "coordinateY": "13",
+    "fate": "false",
+    "huntLog": "false"
+  }
+]

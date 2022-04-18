@@ -12132,6 +12132,13 @@ a:active {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+#map-info .mark-flags .aetheryte-pip {
+  height: 24px;
+  position: absolute;
+  width: 24px;
+  z-index: 1;
+}
+
 #map-info .mark-flags [id$="-flag-pip"] {
   background-color: rgba(220, 53, 69, 0.2);
   border-radius: 50rem;
@@ -12169,14 +12176,7 @@ a:active {
   width: 6px;
 }
 
-#map-info .mark-flags .aetheryte-pip {
-  height: 24px;
-  position: absolute;
-  width: 24px;
-  z-index: 1;
-}
-
-#map-info .mark-flags [id$="-flag-pip"] > div {
+#map-info .mark-flags .mark-tooltip {
   display: inline-block;
   height: 100%;
   position: relative;

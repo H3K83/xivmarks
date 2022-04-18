@@ -1,3 +1,5 @@
+$tooltip-max-width: auto;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 ::-webkit-scrollbar {
@@ -209,30 +211,12 @@ a:active {
   z-index: 1;
 }
 
-#map-info .mark-flags [id$="-flag-pip"] span,
-#map-info .mark-flags .aetheryte-pip span {
-  background-color: $tooltip-bg;
-  border-radius: $tooltip-border-radius;
-  color: $tooltip-color;
-  display: none;
-  font-size: $font-size-sm;
-  opacity: $tooltip-opacity;
-  margin: $tooltip-margin;
-  padding: $tooltip-padding-y $tooltip-padding-x;
-  position: absolute;
-  top: -32px;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  max-width: 400px;
-  z-index: 3;
-}
-
-#map-info .mark-flags [id$="-flag-pip"]:focus span,
-#map-info .mark-flags [id$="-flag-pip"]:hover span,
-#map-info .mark-flags .aetheryte-pip:focus span,
-#map-info .mark-flags .aetheryte-pip:hover span {
+#map-info .mark-flags [id$="-flag-pip"] > div {
   display: inline-block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 3;
 }
 
 #map-info .card-img-wrapper {
